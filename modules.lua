@@ -53,9 +53,9 @@ return {
     -- "superman",        -- Read unix man pages in neovim
     -- "suda",            -- Save using sudo when necessary
     -- "telescope", -- Fuzzy searcher to find files, grep code and more
-    "whichkey", -- An interactive sheet
     -- "ddai", -- my module
     'ddai',
+    "whichkey", -- An interactive sheet
   },
   langs = {
     -- Scripts

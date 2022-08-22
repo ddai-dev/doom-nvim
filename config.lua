@@ -61,5 +61,28 @@ doom.preserve_edit_pos = true
 doom.highlight_yank = true
 
 
+local whichkey = doom.features.whichkey -- Get the whichkey module
+-- You can also access it as `doom.modules.features.whichkey`
+
+-- Inspect the existing config
+-- print(vim.inspect(whichkey))
+
 
 -- vim: sw=2 sts=2 ts=2 expandtab
+
+-- require("which-key").reset()
+
+-- config.lua
+-- You can also access it as `doom.modules.features.whichkey`
+
+-- Some common settings are exposed in the `<module>.settings` table.
+
+-- Inspect the existing config
+-- print(vim.inspect(whichkey))
+
+-- -- Replace all keybinds
+-- whichkey.binds = {
+--   { '<leader>u', name = '+user', {
+--     { "wr", function() require("which-key").reset(), name = "Reset whichkey"}
+--   }}
+-- }

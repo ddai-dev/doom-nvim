@@ -1,1 +1,5 @@
-require("doom.utils.logging").info("init module")
+local M = {}
+
+require("doom.utils.logging").info("loading options")
+
+return M
