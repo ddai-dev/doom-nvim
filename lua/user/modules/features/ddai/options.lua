@@ -1,0 +1,1 @@
+require("doom.utils.logging").info("init module")

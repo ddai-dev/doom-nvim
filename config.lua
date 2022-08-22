@@ -54,5 +54,12 @@ doom.freeze_dependencies = false
 doom.indent = 2
 
 
+-- macros
+doom.disable_macros = true
+
+doom.preserve_edit_pos = true
+doom.highlight_yank = true
+
+
 
 -- vim: sw=2 sts=2 ts=2 expandtab
