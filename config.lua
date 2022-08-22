@@ -41,6 +41,18 @@
 --   { "FileType", "javascript", function() print('This is a javascript file') end }
 -- })
 
+doom.use_package(
+  "sainnhe/gruvbox-material"
+)
+
+doom.colorscheme = 'gruvbox-material'
+
+doom.logging = 'info'
+
+doom.freeze_dependencies = false
+
 doom.indent = 2
+
+
 
 -- vim: sw=2 sts=2 ts=2 expandtab
